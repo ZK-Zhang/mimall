@@ -1,7 +1,7 @@
-import HelloWorld from '../components/HelloWorld.vue'
+import Index from '../pages/index/Index.vue'
 
 export default [{
   path: '/',
-  name: 'HelloWorld',
-  component: HelloWorld
+  name: 'Index',
+  component: Index
 }]
