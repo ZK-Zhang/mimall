@@ -4,11 +4,11 @@ module.exports = {
         port: "8081",
         proxy: {
             "/api": {
-                target: "https://api.66mz8.com",
+                target: "http://mall-pre.springboot.cn",
                 changeOrigin: true,
                 ws: true,
                 pathRewrite: {
-                    "^/api": "./src/mock"
+                    "^/api": ""
                 }
             }
         }
